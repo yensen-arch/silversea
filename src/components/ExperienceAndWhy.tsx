@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "All-Suite Luxury",
-  description: "Spacious, ocean-view suites—many with private verandas—feature elegant decor, marble bathrooms, and fully stocked minibars.",
+  title: "All-Suite, Butler-Serviced",
+  description: "Every suite includes a personal butler, premium amenities, and ocean views.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Unmatched Personal Service",
-  description: "Every suite includes dedicated butler service, ensuring personalized care from the moment you step aboard.",
+  title: "Global Expedition Reach",
+  description: "From polar expeditions to warm-water cruises, Silversea sails to over 900 destinations worldwide.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "All-Inclusive Amenities",
-  description: "Enjoy included shore excursions, premium wines and spirits, fine dining, gratuities, Wi-Fi, and door-to-door transfers.",
+  title: "S.A.L.T. Culinary Program",
+  description: "Sea And Land Taste immerses guests in destination-inspired cuisine, both onboard and ashore.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Global Destinations",
-  description: "From the Mediterranean to Antarctica, Silversea offers expedition and classic cruises to the world’s most inspiring destinations.",
+  title: "Inclusive Ultra-Luxury",
+  description: "Fares cover shore excursions, dining, beverages, and door-to-door transfers.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Silversea Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
